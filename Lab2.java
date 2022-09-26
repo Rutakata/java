@@ -12,9 +12,13 @@ public class Lab2 {
         while (true) {
             try {
                 matrixSize = Integer.parseInt(sc.next());
+                if (matrixSize < 0) {
+                    System.out.print("Wrong size. Enter again: ");
+                    continue;
+                }
                 break;
             }catch(NumberFormatException exception) {
-                System.out.print("Wrong size. Enter again: ");
+                System.out.print("Wrong value. Enter again: ");
                 continue;
             }
         }
