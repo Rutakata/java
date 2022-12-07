@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Lab4",
+            "request": "launch",
+            "mainClass": "Lab4",
+            "projectName": "java_63f3d328"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab3_2",
+            "request": "launch",
+            "mainClass": "Lab3_2",
+            "projectName": "java_63f3d328"
+        },
+        {
+            "type": "java",
             "name": "Launch Lab3_1",
             "request": "launch",
             "mainClass": "Lab3_1",
